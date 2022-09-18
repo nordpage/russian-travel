@@ -6,3 +6,10 @@
     color: white;
     margin-bottom: 26px;
 }
+
+@media screen and (max-width: 320px) {
+    .place__paragraph {
+        width: 288px;
+        margin: 0 auto;
+    }
+}

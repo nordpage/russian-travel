@@ -6,3 +6,10 @@
     display: inline-block;
     margin-right: 18px;
 }
+
+@media screen and (max-width: 320px) {
+    .footer__links li {
+        display: block;
+        margin-bottom: 32px;
+    }
+}

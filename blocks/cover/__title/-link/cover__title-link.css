@@ -10,3 +10,10 @@
 .cover__title-link:hover {
     cursor: pointer;
 }
+
+@media screen and (max-width: 320px) {
+    .cover__title-link {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

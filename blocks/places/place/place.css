@@ -22,3 +22,11 @@
         margin-bottom: 73px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .place {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+}

@@ -17,3 +17,11 @@
         min-height: 480px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .lead__image {
+        min-width: 320px;
+        min-height: 200px;
+    }
+}
+

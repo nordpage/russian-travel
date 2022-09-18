@@ -3,3 +3,10 @@
     width: 560px;
     text-align: center;
 }
+
+@media screen and (max-width: 320px) {
+    .cover__title {
+        width: 288px;
+        margin-bottom: 16px;
+    }
+}
