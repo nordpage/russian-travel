@@ -9,7 +9,7 @@
 }
 
 .header__lang-link:hover {
-    text-decoration: white;
+    text-decoration:underline;
 }
 
 @media screen and (max-width: 320px) {

@@ -10,6 +10,9 @@
     align-items: center;
     justify-content: center;
 }
+.cover:hover {
+    background: url("../../images/__background.png") rgba(42, 44, 47, 0.9);
+}
 
 @media screen and (max-width: 1024px) {
     .cover {
