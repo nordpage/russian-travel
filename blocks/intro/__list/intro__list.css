@@ -1,0 +1,16 @@
+.intro__list {
+    list-style-type: none;
+    margin-top: 33px;
+}
+
+.intro__list li {
+    color: white;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.intro__list li span {
+    font-weight: 600;
+}
