@@ -1,6 +1,6 @@
 .place {
     display: grid;
-    grid-template-columns: 460px auto;
+    grid-template-columns: 460px 484px;
     grid-template-rows: auto 460px;
     column-gap: 40px;
     row-gap: 48px;
@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 1024px) {
     .place {
-        grid-template-columns: 440px auto;
+        grid-template-columns: 440px 456px;
         grid-template-rows: auto 440px;
         column-gap: 32px;
         margin-bottom: 80px;
@@ -19,7 +19,7 @@
 @media screen and (max-width: 768px) {
     .place {
         grid-template-columns: 340px 352px;
-        grid-template-rows: auto auto;
+        grid-template-rows: auto 340px;
         column-gap: 28px;
         margin-bottom: 73px;
     }
