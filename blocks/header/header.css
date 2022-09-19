@@ -1,6 +1,6 @@
 .header {
     margin: 28px auto 0;
-    width: 1184px;
+    width: calc(100% - 96px);
     height: 52px;
     display: flex;
     justify-content: space-between;
@@ -8,21 +8,21 @@
 
 @media screen and (max-width: 1024px) {
     .header{
-        width: 928px;
+        width: calc(100% - 96px);
         height: 52px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .header{
-        width: 720px;
+        width: calc(100% - 48px);
         height: 52px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .header {
-        width: 288px;
+        width: calc(100% - 32px);
         height: 42px;
         align-items: center;
         justify-content: space-between;

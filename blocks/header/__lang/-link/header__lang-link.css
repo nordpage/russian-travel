@@ -6,6 +6,7 @@
     line-height: 28px;
     font-weight: 400;
     padding-right: 18px;
+    text-transform: uppercase;
 }
 
 .header__lang-link:hover {
