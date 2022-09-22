@@ -8,6 +8,7 @@
 
 @media screen and (max-width: 320px) {
     .footer__copyright {
-        width: 186px;
+        max-width: 186px;
+        width: 100%;
     }
 }
