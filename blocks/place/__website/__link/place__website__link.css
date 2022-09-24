@@ -1,4 +1,6 @@
 .place__website__link {
+    margin: 0;
+    padding: 0;
     color: white;
     font-family: 'Inter', 'Arial', sans-serif;
     font-size: 18px;
@@ -7,5 +9,6 @@
 }
 
 .place__website__link:hover {
-    cursor: pointer;
+    opacity: 0.8;
 }
+

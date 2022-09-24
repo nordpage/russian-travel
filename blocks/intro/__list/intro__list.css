@@ -1,14 +1,7 @@
 .intro__list {
+    padding: 0;
     list-style-type: none;
-    margin-top: 33px;
-}
-
-.intro__list li {
-    color: white;
-    font-family: 'Inter', 'Arial', sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 18px;
+    margin: 18px 0 0;
 }
 
 .intro__list li span {
@@ -17,6 +10,6 @@
 
 @media screen and (max-width: 320px) {
     .intro__list {
-        width: 288px;
+        max-width: 288px;
     }
 }

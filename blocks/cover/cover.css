@@ -1,9 +1,9 @@
 .cover {
-    background: url("../../images/__background.png") rgba(42, 44, 47, 0.5);
+    background: url("../../images/__background.png") rgba(42, 44, 47, 0.3);
     background-size: cover;
     width: calc(100% - 96px);
     min-height: 740px;
-    margin: 92px auto 0;
+    margin: 42px auto 0;
     background-blend-mode: multiply;
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@
     justify-content: center;
 }
 .cover:hover {
-    background-color: rgb(42, 44, 47);
+    background-color: rgba(42, 44, 47, 0.8);
 }
 
 @media screen and (max-width: 1024px) {
@@ -24,11 +24,14 @@
 @media screen and (max-width: 768px) {
     .cover {
         min-height: 480px;
+        margin: 90px auto 0;
     }
 }
 
 @media screen and (max-width: 320px) {
     .cover {
         min-height: 200px;
+        margin: 60px auto 0;
+
     }
 }
