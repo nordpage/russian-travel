@@ -1,4 +1,4 @@
-.lead__title{
+.lead__title {
     padding: 0;
     max-width: 720px;
     width: 100%;
@@ -12,7 +12,7 @@
     word-wrap: break-word;
 }
 
-@media screen and (max-width: 320px)   {
+@media screen and (max-width: 320px) {
     .lead__title {
         max-width: 288px;
         margin: 0 auto 16px;

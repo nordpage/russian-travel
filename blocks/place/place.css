@@ -25,7 +25,9 @@
 
 @media screen and (max-width: 320px) {
     .place {
-        grid-template-columns: auto;
+       display: flex;
+        flex-direction: column;
+        column-gap: 32px;
         margin-bottom: 50px;
     }
 }
