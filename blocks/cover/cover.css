@@ -1,15 +1,31 @@
 .cover {
-    background: url("../../images/__background.png");
-    background-size: cover;
+    background: url("../../images/__background.png") rgba(42, 44, 47, 0.3);
+    background-blend-mode: multiply;
     width: calc(100% - 96px);
     min-height: 740px;
     margin: 92px auto 0;
-    background-blend-mode: multiply;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
+    background-size: cover;
 }
+
+.cover:hover:after {
+    background-color: rgba(42, 44, 47, 0.8);
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
 
 @media screen and (max-width: 1024px) {
     .cover {

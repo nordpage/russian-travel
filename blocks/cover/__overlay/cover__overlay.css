@@ -1,17 +1,16 @@
 .cover__overlay {
     position: absolute;
-    background-color: rgb(42, 44, 47);
-    opacity: 0.3;
+    background-color: rgba(42, 44, 47, 0.3);
     max-width: 1184px;
     width: 100%;
-    overflow: hidden;
     min-height: 740px;
     margin: 0 auto;
-    mix-blend-mode: multiply;
 }
 
-.cover__overlay:hover {
-    opacity: 0.8;
+.cover__overlay:hover:after {
+    background-color: rgba(42, 44, 47, 0.8);
+    position: absolute;
+    margin-left: -1184px;
 }
 
 @media screen and (max-width: 1024px) {
