@@ -1,13 +1,12 @@
-.place__website {
+.website {
     align-self: end;
     justify-self: start;
 }
 
 @media screen and (max-width: 320px) {
-    .place__website {
-        width: 288px;
+    .website {
+        max-width: 288px;
         align-self: start;
-        justify-self: start;
-        margin: 0 auto;
+        margin-left: 16px;
     }
 }

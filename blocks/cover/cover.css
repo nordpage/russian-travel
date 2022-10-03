@@ -1,5 +1,5 @@
 .cover {
-    background: url("../../images/__background.png") rgba(42, 44, 47, 0.3);
+    background: url("../../images/__background.png");
     background-size: cover;
     width: calc(100% - 96px);
     min-height: 740px;
@@ -9,10 +9,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.cover:hover {
-    background-color: rgba(42, 44, 47, 0.8);
 }
 
 @media screen and (max-width: 1024px) {

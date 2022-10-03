@@ -8,12 +8,13 @@
     max-width: 560px;
     width: 100%;
     text-align: center;
-    word-break: break-word;
+    text-decoration: none;
+    z-index: 1;
 }
 
 @media screen and (max-width: 320px) {
     .cover__title {
-        max-width: 288px;
+        max-width: 255px;
         margin-bottom: 16px;
         font-size: 32px;
         line-height: 35px;
