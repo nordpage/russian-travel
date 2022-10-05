@@ -18,8 +18,8 @@
 
 @media screen and (max-width: 768px) {
     .place {
-        grid-template-columns: min-content fit-content(352px);
-        grid-template-rows: max-content fit-content(340px);
+        grid-template-columns: 340px fit-content(352px);
+        grid-template-rows: fit-content(340px) fit-content(352px);
         column-gap: 28px;
         margin-bottom: 73px;
     }
