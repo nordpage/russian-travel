@@ -9,6 +9,6 @@
 ### Планы по доработке
 Хотелось бы доделать поддержку устройств в линейке iOs - iPad Air, IPhone и тд.
 
+Доступно на [GitHub Pages](https://nordpage.github.io/russian-travel/)
 
-
-#### Автор: *Анастасия Хоревич, Yandex Practicum, 18я Когорта*
+#### Автор: *Анастасия Хоревич, Yandex Practicum, 23я Когорта*
