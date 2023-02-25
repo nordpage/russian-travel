@@ -7,8 +7,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    background-size: cover;
-    background: url("../../images/__background.png") center;
+    background: url("../../images/__background.png") no-repeat center / cover;
 }
 
 .cover:after {
