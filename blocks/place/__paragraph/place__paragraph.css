@@ -5,6 +5,7 @@
     line-height: 163%;
     color: white;
     margin: 0 0 26px;
+    word-break: break-word;
 }
 
 .place__paragraph:last-child {

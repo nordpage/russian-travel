@@ -1,6 +1,5 @@
 .photo-grid {
-    width: calc(100% - 96px);
-    margin: 92px auto 0;
+    margin: 92px 48px 0;
     display: grid;
     grid-gap: 16px 16px;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
@@ -18,18 +17,16 @@
 
 @media screen and (max-width: 768px) {
     .photo-grid {
-        width: calc(100% - 48px);
         grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
-        margin: 88px auto 0;
+        margin: 88px 24px 0;
         grid-gap: 16px 16px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .photo-grid {
-        width: calc(100% - 32px);
         grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
-        margin: 64px auto 0;
+        margin: 64px 16px 0;
         grid-gap: 12px;
     }
 }
